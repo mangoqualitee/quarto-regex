@@ -1,5 +1,12 @@
 [
   {
+    "objectID": "repo/README.html",
+    "href": "repo/README.html",
+    "title": "quarto-regex",
+    "section": "",
+    "text": "quarto-regex\ndir1/README.md\ndir2/README.md\ndir3/README.md"
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",

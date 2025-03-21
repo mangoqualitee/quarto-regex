@@ -3,8 +3,6 @@ author: mangoqualitee
 date: 22 March 2025
 ---
 
-# Regex in quarto Render Target
+# quarto-regex
 
-MWE (Minimum Working Example)
-
-dir 2
+dir2/README.md

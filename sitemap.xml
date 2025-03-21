@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>git@github-vishalpaudel:mangoqualitee/quarto-regex.git/repo/README.html</loc>
+    <lastmod>2025-03-21T23:08:22.175Z</lastmod>
+  </url>
+  <url>
     <loc>git@github-vishalpaudel:mangoqualitee/quarto-regex.git/about.html</loc>
     <lastmod>2025-03-21T23:01:51.372Z</lastmod>
   </url>

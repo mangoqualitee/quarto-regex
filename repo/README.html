@@ -118,7 +118,7 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#regex-in-quarto-render-target" id="toc-regex-in-quarto-render-target" class="nav-link active" data-scroll-target="#regex-in-quarto-render-target">Regex in quarto Render Target</a></li>
+  <li><a href="#quarto-regex" id="toc-quarto-regex" class="nav-link active" data-scroll-target="#quarto-regex">quarto-regex</a></li>
   </ul>
 </nav>
     </div>
@@ -155,10 +155,11 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="regex-in-quarto-render-target" class="level1">
-<h1>Regex in quarto Render Target</h1>
-<p>MWE (Minimum Working Example)</p>
-<p><a href="dir1/README.md">dir1</a> <a href="dir2/README.md">dir2</a> <a href="dir3/README.md">dir3</a></p>
+<section id="quarto-regex" class="level1">
+<h1>quarto-regex</h1>
+<p><a href="dir1/README.md">dir1/README.md</a></p>
+<p><a href="dir2/README.md">dir2/README.md</a></p>
+<p><a href="dir3/README.md">dir3/README.md</a></p>
 
 
 </section>
@@ -254,7 +255,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("git@github-vishalpaudel:mangoqualitee\/quarto-regex\.git");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
