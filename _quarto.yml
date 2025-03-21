@@ -1,5 +1,20 @@
 project:
   type: website
+  render:
+    - "*.qmd"
+
+    # NOT WORKING
+    - repo/README.md
+    - repo/dir*/README.md
+
+    # # NOT WORKING (OR)
+    # - repo/**/README.md
+
+    # # WORKING
+    # - repo/README.md
+    # - repo/dir1/README.md
+    # - repo/dir2/README.md
+    # - repo/dir3/README.md
 
 website:
   title: "quarto-regex"
@@ -8,6 +23,8 @@ website:
       - href: index.qmd
         text: Home
       - about.qmd
+      - href: repo/README.md
+        text: Repo
 
 format:
   html:
