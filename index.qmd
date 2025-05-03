@@ -1,5 +1,7 @@
 ---
 title: "sidebar-on-specific-page"
+
+sidebar: gyan
 ---
 
 This is a Quarto website.

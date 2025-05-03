@@ -9,6 +9,13 @@ website:
         text: Home
       - about.qmd
 
+  sidebar:
+    - id: gyan
+      contents:
+        - page1.qmd
+        - page2.qmd
+        - myfolder/innerpage.qmd
+
 format:
   html:
     theme:
